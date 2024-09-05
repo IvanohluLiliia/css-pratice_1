@@ -1,0 +1,44 @@
+/* Скидання стилів за замовчуванням */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f7f3e3;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start; /* Вирівнювання по горизонталі ліворуч */
+    align-items: center; /* Вирівнювання по вертикалі в центрі */
+    padding-left: 20px; /* Додаємо відступ для тексту */
+}
+
+.main {
+    background-color: #7e3748;
+    height: 40vh;
+    display: flex;
+    justify-content: center; /* Вирівнювання по горизонталі в центрі */
+    align-items: center; /* Вирівнювання по вертикалі в центрі */
+}
+
+.footer {
+    background-color: #c0708b;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end; /* Вирівнювання по горизонталі праворуч */
+    align-items: center; /* Вирівнювання по вертикалі в центрі */
+    padding-right: 20px; /* Додаємо відступ для тексту */
+}
+
+.text {
+    font-size: 24px; /* Розмір тексту */
+    color: black; /* Колір тексту */
+    font-family: Arial, sans-serif; /* Шрифт */
+}
